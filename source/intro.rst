@@ -56,7 +56,7 @@ GetFEM++のコンパイルは他のGNUツールと共通ですのでフリーソ
 
 .. code-block:: console
 
-   $ export CFLAGS=-g
-   $ export CXXFLAGS=-g
-   $ ./configure --with-pic --with-optimization=-O0
+   $ export CFLAGS=-g # Cのコンパイルにデバッグオプションを追加
+   $ export CXXFLAGS=-g # C++のコンパイルにデバッグオプションを追加
+   $ ./configure --with-pic --with-optimization=-O0 # 最適化オプションをOFF
 
